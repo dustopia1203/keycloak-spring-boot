@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: demo
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri:
+          jwk-set-uri:
+server:
+  port:
+jwt:
+  auth:
+    converter:
+      resource-id:
+      principle-attribute:
